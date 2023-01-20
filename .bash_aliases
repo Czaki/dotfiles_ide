@@ -6,3 +6,5 @@ alias ga='git add'
 alias gco='git checkout'
 alias gcm='git checkout main'
 alias gcd='git checkout develop'
+
+git config --global --add --bool push.autoSetupRemote true
